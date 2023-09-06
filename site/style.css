@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+.total-container{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.course-activity{
+    background-color: #f4f6ff;
+    padding: 40px 30px;
+    border-radius: 30px;
+}
+.course-activity-wrap{
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    padding-bottom: 50px;
+}
+.with-date h1{
+    font-weight: 700;
+    font-size: 30px;
+    color: #24243a;
+}
+.with-date h4{
+    font-weight: 700;
+    font-size: 18px;
+    color: #0068ff;
+}
+.plus-icon{
+   width: 45px;
+    background-color: #0068ff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plus-icon img{
+    width: 25px;
+    height: 25px;
+}
+.middle{
+    height: 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 26px;
+}
+.course{
+    display: flex;
+}
+.course h4{
+    font-weight: 700;
+    font-size: 20px;
+    color: #a2a9c8;
+    padding-right: 14px;
+}
+.left-arrow, .right-arrow{
+    display: flex;
+    background-color: white;
+    border-radius: 8px;
+    padding: 0px 10px;
+    text-align: center;
+    align-items: center;
+    margin: 0px 6px;
+}
+.course img{
+    width: 15px;
+    height: 15px;
+}
+.icon-with-menu{
+    display: flex;
+    width: 68px;
+    height: 38px;
+    background-color: white;
+    border-radius: 25px;
+    text-align: center;
+    align-items: center;
+}
+.icon-with-menu img{
+    width: 22px;
+    height: 22px;
+    padding: 4px 5px
+}
+.menu-icon{
+    background-color: #0068ff;
+    border-radius: 50%;
+}
+.card-blue, .card-pink, .card-yellow, .card-orange{
+    border-radius: 25px;
+    padding: 15px;
+    color: white;
+}
+.card-blue{
+    background-color: #0068ff;
+    margin-bottom: 20px ;
+}
+.card-pink{
+    margin-bottom: 20px ;
+    background-color: #cf74ff;
+}
+.card-yellow{
+    margin-bottom: 20px ;
+    background-color: #fadb39;
+}
+.card-orange{
+    margin-bottom: 20px ;
+    background-color: #ed7071;
+}
+.flex-layout{
+    display: flex;
+    justify-content: space-between;
+}
+.img-content{
+    display: flex;
+}
+.thumb-img img{
+    width: 140px;
+    height: 140px;
+    padding-right: 10px;
+}
+.head-para{
+    padding-right: 50px;
+}
+.head-para h3{
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.number{
+    margin-bottom: 15px;
+    margin-left: 10px;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items:center ;
+    background-color: white;
+    color: #24243a;
+    border-radius: 15px;
+    
+}
+.bar-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.enroll-icon{
+    display: flex;
+}
+.enroll-icon h3{
+    font-size: 15px;
+}
+.en-icon img{
+    width: 30px;
+    margin-left: 5px;
+}
+.bar-grey{
+    width: 70%;
+    height: 8px;
+    border-radius: 5px;
+    background-color: grey;
+}
+.bar-white{
+    width: 55%;
+    height: 8px;
+    border-radius: 5px;
+    background-color: white;
+}
+.card-pink .bar-white{
+    width: 30%;
+    height: 8px;
+    border-radius: 5px;
+    background-color: white;
+}
+.card-yellow .bar-white{
+    width: 80%;
+    height: 8px;
+    border-radius: 5px;
+    background-color: white;
+}
+.my-learning{
+    padding: 40px 30px;
+}
+.right-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 65px;
+}
+.back-button-icon{
+    display: flex;
+    align-items: center;
+}
+.back-icon img{
+    width: 40px;
+    height: 40px;
+}
+.bell img{
+    width: 30px;
+    height: 30px;
+    padding-left: 25px;
+}
+.name-profile{
+    display: flex;
+    align-items: center;
+}
+.profile img{
+    width: 45px;
+    height: 45px;
+    background-color: #f4f6ff;
+    border-radius: 10px;
+}
+.name{
+    padding-right: 20px;
+}
+.name h3{
+    font-size: 15px;
+    font-weight: 700;
+}
+.name p{
+    font-size: 12px;
+    font-weight: 700;
+    color: #0068ff;
+}
+.learning{
+    padding-bottom: 30px;
+}
